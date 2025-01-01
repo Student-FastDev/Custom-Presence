@@ -1,3 +1,3 @@
-![Menu](https://i.imgur.com/LnI8bz7.png)
+![Menu](https://i.imgur.com/OJ5fw0S.png)
 
 # Custom-Presence
