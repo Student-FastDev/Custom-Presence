@@ -92,7 +92,8 @@ Before setting up the **Custom Discord Rich Presence Manager**, ensure you have 
     - **Accessing Outputs:** Utilize the `OutputCapture` class to redirect and display script outputs within the application.
     - **Security:** Ensure that your custom scripts are safe and free from malicious code to prevent unintended behavior.
 
-    <br/>
+    <br>
+    
     ```python
     import time
 
