@@ -92,7 +92,7 @@ Before setting up the **Custom Discord Rich Presence Manager**, ensure you have 
     - **Accessing Outputs:** Utilize the `OutputCapture` class to redirect and display script outputs within the application.
     - **Security:** Ensure that your custom scripts are safe and free from malicious code to prevent unintended behavior.
 
-     
+    <br/>
     ```python
     import time
 
@@ -101,7 +101,7 @@ Before setting up the **Custom Discord Rich Presence Manager**, ensure you have 
         time.sleep(10)  # Pause for 10 seconds.
     ```
 
-3. **Timestamp Settings:**
+4. **Timestamp Settings:**
 
     - **Options:** Select from various timestamp types, including custom delays and specific time formats.
     - **Validation:** The application validates timestamp inputs to ensure correct formatting and functionality.
