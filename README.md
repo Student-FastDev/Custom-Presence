@@ -14,7 +14,6 @@
 - **Cache Management:** Save and load user inputs and scripts using a cache file to preserve settings between sessions.
 - **Syntax Highlighting:** Real-time syntax highlighting in the script editor for improved readability and development experience.
 - **Fade-In Animation:** Smooth fade-in effect for the application window upon startup.
-- **Proxy Support:** (Planned) Future updates may include proxy support to enhance privacy and security.
 
 ## Prerequisites
 
@@ -92,6 +91,14 @@ Before setting up the **Custom Discord Rich Presence Manager**, ensure you have 
 
     - **Accessing Outputs:** Utilize the `OutputCapture` class to redirect and display script outputs within the application.
     - **Security:** Ensure that your custom scripts are safe and free from malicious code to prevent unintended behavior.
+  
+    ```python
+    import time
+
+    for i in range(1, 11):
+        print(i) # Update the presence.
+        time.sleep(10)  # Pause for 10 seconds.
+    ```
 
 3. **Timestamp Settings:**
 
