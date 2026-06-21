@@ -1,6 +1,6 @@
 # Custom Discord Rich Presence Manager
 
-Python-based GUI application designed to seamlessly integrate and manage Discord Rich Presence features.
+Python-based GUI application designed to and manage Discord Rich Presence features.
 
 ## Prerequisites
 
@@ -47,17 +47,6 @@ Before setting up the **Custom Discord Rich Presence Manager**, ensure you have 
     - **Buttons:** Configure up to two interactive buttons with custom labels and URLs.
     - **Timestamp:** Choose the type of timestamp to display, such as local time, custom timestamp, or since the program started.
 
-3. **Execute Custom Scripts:**
-
-    - **Script Editor:** Write or paste your custom Python scripts in the provided script area.
-    - **Syntax Highlighting:** Enjoy real-time syntax highlighting for better readability and error detection.
-    - **Run Scripts:** Scripts execute automatically when Rich Presence is connected. Monitor output and errors within the application.
-
-4. **System Tray Management:**
-
-    - **Minimize to Tray:** Click the background toggle button to hide the window and keep the tray icon active.
-    - **Tray Menu:** Access options like showing the window, connecting/disconnecting Rich Presence, and exiting the application directly from the tray icon.
-
 ## Configuration
 
 1. **Cache Management:**
@@ -80,17 +69,12 @@ Before setting up the **Custom Discord Rich Presence Manager**, ensure you have 
         time.sleep(10)  # Pause for 10 seconds.
     ```
 
-4. **Timestamp Settings:**
+3. **Timestamp Settings:**
 
     - **Options:** Select from various timestamp types, including custom delays and specific time formats.
-    - **Validation:** The application validates timestamp inputs to ensure correct formatting and functionality.
 
 ## Notes
 
-- **Asynchronous Efficiency:** While the current version uses threading for script execution and Rich Presence updates, future updates may incorporate asynchronous programming (`asyncio`) to enhance performance.
-  
-- **Proxy Support:** Proxy integration is planned for future releases to enhance privacy and security during web automation tasks.
-  
 - **Security:** Handle your Discord App ID and any sensitive information securely. Avoid sharing credentials or exposing sensitive data within scripts.
 ---
 
