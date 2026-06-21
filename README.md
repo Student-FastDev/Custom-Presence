@@ -1,6 +1,6 @@
 # Custom Discord Rich Presence Manager
 
-**Custom Discord Rich Presence Manager** is a Python-based GUI application designed to seamlessly integrate and manage Discord Rich Presence features.
+Python-based GUI application designed to seamlessly integrate and manage Discord Rich Presence features.
 
 ## Prerequisites
 
