@@ -43,7 +43,7 @@ To run the Custom Presence application, ensure you have the following installed:
 
     - **App ID:** Enter your Discord application's Client ID. You can obtain this from the Discord Developer Portal.
     - **Details & State:** Customize the `Details` and `State` fields to display specific information in your Discord status.
-    - **Party Size:** (Optional) Set the current and maximum party size if applicable.
+    - **Party Size:** Set the current and maximum party size if applicable.
     - **Images:** Add keys and texts for large and small images to enhance your Rich Presence visuals.
     - **Buttons:** Configure up to two interactive buttons with custom labels and URLs.
     - **Timestamp:** Choose the type of timestamp to display, such as local time, custom timestamp, or since the program started.
