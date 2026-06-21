@@ -96,7 +96,6 @@ class CustomLibrary:
         import random
         return random.randint(start, end)
 
-
 class CustomRichPresenceApp:
     def __init__(self, root):
         self.root = root
@@ -574,7 +573,6 @@ class CustomRichPresenceApp:
         }
         script_content = self.script_area.get("1.0", tk.END)
         save_cache(data, script_content)
-
 
     def save_timestamp_options(self):
         timestamp_data = {
