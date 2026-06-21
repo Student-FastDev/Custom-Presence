@@ -1,14 +1,14 @@
 # Custom Presence
 
-Python-based GUI application designed to and manage Discord Rich Presence features.
+Python-based GUI application designed to manage Discord Rich Presence features.
 
 ## Prerequisites
 
-Before starting, ensure you have the following installed:
+To run the Custom Presence application, ensure you have the following installed:
 
-- **Python:** Version 3.6 or higher. [Download Python](https://www.python.org/downloads/).
-- **Git:** For cloning the repository. [Download Git](https://git-scm.com/downloads).
-- **Discord Account:** To utilize Discord Rich Presence features. [Sign Up for Discord](https://discord.com/).
+- **Python:** Version 3.6 or higher.
+- **Git:** For cloning the repository.
+- **Discord Account:** To utilize Discord Rich Presence features.
 
 ## Installation
 
@@ -27,7 +27,6 @@ Before starting, ensure you have the following installed:
     pip install -r requirements.txt
     ```
 
-
 ## Usage
 
 1. **Run the Application:**
@@ -38,29 +37,22 @@ Before starting, ensure you have the following installed:
     python presence.py
     ```
 
-2. **Configure Rich Presence Settings:**
+2. **Configure Settings:**
 
-    - **App ID:** Enter your Discord application's Client ID. You can obtain this from the [Discord Developer Portal](https://discord.com/developers/applications).
+    Configure your Rich Presence directly within the application's interface:
+
+    - **App ID:** Enter your Discord application's Client ID. You can obtain this from the Discord Developer Portal.
     - **Details & State:** Customize the `Details` and `State` fields to display specific information in your Discord status.
     - **Party Size:** (Optional) Set the current and maximum party size if applicable.
     - **Images:** Add keys and texts for large and small images to enhance your Rich Presence visuals.
     - **Buttons:** Configure up to two interactive buttons with custom labels and URLs.
     - **Timestamp:** Choose the type of timestamp to display, such as local time, custom timestamp, or since the program started.
 
-## Configuration
+## Notes
 
-1. **Cache Management:**
+- **Cache Management:** User inputs and scripts are saved to `cache.json` to preserve settings between sessions. Avoid manually editing the cache file to prevent data corruption. Use the application interface to modify settings.
+- **Custom Scripts:** Utilize the `OutputCapture` class to redirect and display script outputs within the application. Ensure that your custom scripts are safe and free from malicious code to prevent unintended behavior. Example script:
 
-    - **Cache File:** User inputs and scripts are saved to `cache.json` to preserve settings between sessions.
-    - **Editing Cache:** Avoid manually editing the cache file to prevent data corruption. Use the application interface to modify settings.
-
-2. **Custom Scripts:**
-
-    - **Accessing Outputs:** Utilize the `OutputCapture` class to redirect and display script outputs within the application.
-    - **Security:** Ensure that your custom scripts are safe and free from malicious code to prevent unintended behavior.
-
-    <br>
-    
     ```python
     import time
 
