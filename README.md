@@ -72,10 +72,6 @@ Before starting, ensure you have the following installed:
 3. **Timestamp Settings:**
 
     - **Options:** Select from various timestamp types, including custom delays and specific time formats.
-
-## Notes
-
-- **Security:** Handle your Discord App ID and any sensitive information securely. Avoid sharing credentials or exposing sensitive data within scripts.
 ---
 
 <div align="center">  
