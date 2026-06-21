@@ -27,15 +27,6 @@ Before setting up the **Custom Discord Rich Presence Manager**, ensure you have 
     pip install -r requirements.txt
     ```
 
-    **Required Packages:**
-
-    - `customtkinter`
-    - `pypresence`
-    - `pystray`
-    - `Pillow`
-    - `pystray`
-    - `asyncio`
-
 
 ## Usage
 
