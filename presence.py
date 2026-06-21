@@ -36,7 +36,6 @@ def save_cache(data, script_content=None):
         print(f"Error saving cache: {e}")
 
 def load_cache():
-    
     if os.path.exists(CACHE_FILE):
         try:
             with open(CACHE_FILE, "r") as f:
