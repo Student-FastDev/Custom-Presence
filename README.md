@@ -69,9 +69,6 @@ Before starting, ensure you have the following installed:
         time.sleep(10)  # Pause for 10 seconds.
     ```
 
-3. **Timestamp Settings:**
-
-    - **Options:** Select from various timestamp types, including custom delays and specific time formats.
 ---
 
 <div align="center">  
