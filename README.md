@@ -4,7 +4,7 @@ Python-based GUI application designed to and manage Discord Rich Presence featur
 
 ## Prerequisites
 
-Before setting up the **Custom Discord Rich Presence Manager**, ensure you have the following installed:
+Before starting, ensure you have the following installed:
 
 - **Python:** Version 3.6 or higher. [Download Python](https://www.python.org/downloads/).
 - **Git:** For cloning the repository. [Download Git](https://git-scm.com/downloads).
