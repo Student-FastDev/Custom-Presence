@@ -1,4 +1,4 @@
-# Custom Discord Rich Presence Manager
+# Custom Presence
 
 Python-based GUI application designed to and manage Discord Rich Presence features.
 
