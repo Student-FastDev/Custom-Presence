@@ -4,7 +4,7 @@ Python-based GUI application designed to manage Discord Rich Presence features.
 
 ## Prerequisites
 
-To run the Custom Presence application, ensure you have the following installed:
+To run the application, ensure you have the following installed:
 
 - **Python:** Version 3.6 or higher.
 - **Git:** For cloning the repository.
