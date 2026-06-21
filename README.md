@@ -1,17 +1,6 @@
 # Custom Discord Rich Presence Manager
 
-**Custom Discord Rich Presence Manager** is a Python-based GUI application designed to seamlessly integrate and manage Discord Rich Presence features. Leveraging libraries like `customtkinter`, `pypresence`, and `pystray`, this tool offers a user-friendly interface to customize your Discord status with detailed information, images, and interactive buttons. Additionally, it supports executing custom Python scripts to enhance functionality and automate tasks.
-
-## Features
-
-- **User-Friendly GUI:** Intuitive interface built with `customtkinter` for easy configuration of Rich Presence settings.
-- **Discord Rich Presence Integration:** Connect and update your Discord status with customizable details, state, images, and buttons.
-- **Custom Scripting:** Embed and execute custom Python scripts directly within the application to extend functionality.
-- **System Tray Integration:** Minimize the application to the system tray with options to show the window, connect/disconnect Rich Presence, and exit the application.
-- **Output Capture:** Capture and display script output within the application, enhancing debugging and monitoring.
-- **Cache Management:** Save and load user inputs and scripts using a cache file to preserve settings between sessions.
-- **Syntax Highlighting:** Real-time syntax highlighting in the script editor for improved readability and development experience.
-- **Fade-In Animation:** Smooth fade-in effect for the application window upon startup.
+**Custom Discord Rich Presence Manager** is a Python-based GUI application designed to seamlessly integrate and manage Discord Rich Presence features.
 
 ## Prerequisites
 
